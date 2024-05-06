@@ -53,6 +53,4 @@ public class SocialNetwork implements Graph {
     public Node getNode(int id) {
         return nodes.get(id);
     }
-    
-    
 }

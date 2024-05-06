@@ -8,5 +8,4 @@ public interface Graph {
     int getNodeCount();
     int getEdgeCount();
     Node getNode(int id);
-
 }

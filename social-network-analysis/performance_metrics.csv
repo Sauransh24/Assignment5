@@ -1,0 +1,4 @@
+NumNodes,NumEdges,ExecutionTime(ms),MemoryUsage(bytes)
+10000,5000,3,6489408
+50000,25000,1,24797504
+100000,100000,99,56449104

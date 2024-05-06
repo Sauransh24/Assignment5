@@ -18,11 +18,11 @@ public class DepthFirstSearchTest {
     private SocialNetwork createSampleSocialNetwork() {
         SocialNetwork socialNetwork = new SocialNetwork();
     
-        Node node1 = new Node(1, "Alice");
-        Node node2 = new Node(2, "Bob");
-        Node node3 = new Node(3, "Charlie");
-        Node node4 = new Node(4, "David");
-        Node node5 = new Node(5, "Eve");
+        Node node1 = new Node(1, "Flash");
+        Node node2 = new Node(2, "Captain");
+        Node node3 = new Node(3, "Thor");
+        Node node4 = new Node(4, "Hulk");
+        Node node5 = new Node(5, "Thanos");
     
         socialNetwork.addNode(node1);
         socialNetwork.addNode(node2);

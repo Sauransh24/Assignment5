@@ -9,11 +9,11 @@ public class Main {
     
     
         // Create nodes
-        Node node1 = new Node(1, "Alice");
-        Node node2 = new Node(2, "Bob");
-        Node node3 = new Node(3, "Charlie");
-        Node node4 = new Node(4, "David");
-        Node node5 = new Node(5, "Eve");
+        Node node1 = new Node(1, "Flash");
+        Node node2 = new Node(2, "Captain");
+        Node node3 = new Node(3, "Thor");
+        Node node4 = new Node(4, "Hulk");
+        Node node5 = new Node(5, "Thanos");
     
         // Add nodes to the social network
         socialNetwork.addNode(node1);
@@ -23,11 +23,11 @@ public class Main {
         socialNetwork.addNode(node5);
     
         // Create edges
-        Edge edge1 = new Edge(node1, node2, 1.0);
-        Edge edge2 = new Edge(node1, node3, 1.0);
-        Edge edge3 = new Edge(node2, node4, 1.0);
-        Edge edge4 = new Edge(node3, node4, 1.0);
-        Edge edge5 = new Edge(node4, node5, 1.0);
+        Edge edge1 = new Edge(node1, node2, 1);
+        Edge edge2 = new Edge(node1, node3, 3);
+        Edge edge3 = new Edge(node2, node4, 2);
+        Edge edge4 = new Edge(node3, node4, 4);
+        Edge edge5 = new Edge(node4, node5, 1);
     
         // Add edges to the social network
         socialNetwork.addEdge(edge1);

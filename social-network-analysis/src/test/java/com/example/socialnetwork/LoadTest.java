@@ -47,5 +47,5 @@ public class LoadTest {
     
         return socialNetwork;
     }
-    }
+}
     

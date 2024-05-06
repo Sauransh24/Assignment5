@@ -8,7 +8,7 @@ public class GraphTest {
     @Test
     public void testAddNode() {
     Graph graph = new SocialNetwork();
-    Node node = new Node(1, "Alice");
+    Node node = new Node(1, "Groot");
     graph.addNode(node);
     assertEquals(1, graph.getNodeCount());
     }
@@ -17,8 +17,8 @@ public class GraphTest {
     @Test
     public void testAddEdge() {
         Graph graph = new SocialNetwork();
-        Node node1 = new Node(1, "Alice");
-        Node node2 = new Node(2, "Bob");
+        Node node1 = new Node(1, "Groot");
+        Node node2 = new Node(2, "Rocket");
         graph.addNode(node1);
         graph.addNode(node2);
         Edge edge = new Edge(node1, node2, 1.0);
@@ -26,6 +26,5 @@ public class GraphTest {
         assertEquals(1, graph.getEdgeCount());
     }
     
-    // Add more test methods for other graph operations
-    }
+}
     

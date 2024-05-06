@@ -10,8 +10,8 @@ public class SocialNetworkTest {
     @Test
     public void testGetNeighbors() {
     SocialNetwork socialNetwork = new SocialNetwork();
-    Node node1 = new Node(1, "Alice");
-    Node node2 = new Node(2, "Bob");
+    Node node1 = new Node(1, "Groot");
+    Node node2 = new Node(2, "Rocket");
     socialNetwork.addNode(node1);
     socialNetwork.addNode(node2);
     Edge edge = new Edge(node1, node2, 1.0);
@@ -20,8 +20,5 @@ public class SocialNetworkTest {
     assertEquals(1, neighbors.size());
     assertTrue(neighbors.contains(node2));
     }
-    
-    
-    // Add more test methods for other social network operations
-    }
+}
     
